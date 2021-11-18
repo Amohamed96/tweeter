@@ -12,15 +12,16 @@
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
 
     <!-- External JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
 
     <!-- App JS -->
-    <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
   </head>
-
   <body>
     <!-- Top nav bar (fixed) -->
     <nav>
@@ -44,8 +45,16 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <h1>Yo</h1>
-      <p>Hello this is my fake twitter page</p>
+      <section class="new-tweet">
+        </div>
+        <form action="/tweets" method="POST">
+          <textarea name="text" placeholder="What are you humming about?"></textarea>
+          <input type="submit" value="Tweet">
+          <span class="counter">140</span>
+        </form>
+      </section>
+      <section id="tweets-container">
+      </section>
     </main>
   </body>
 </html>

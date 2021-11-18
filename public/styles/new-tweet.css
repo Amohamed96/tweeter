@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+textarea {
+  flex: 100%;
+  background: transparent;
+  font-weight: bold;
+  border: none;
+  border-bottom: solid 5px #545149;
+  margin-top: 1em;
+  margin-bottom: .5em;
+  color: #545149;
+  height: 50px;
+  outline: none;
+}
+.counter {
+  font-family: 'Bungee', cursive, sans-serif;
+  position: relative;
+  left: 0;
+  /* Have counter on the far right lined up with "Write new tweet" */
+}
+
+input {
+  font-family: 'Bungee', cursive, sans-serif;
+  background-color: #4056A1;
+  color: #ffffff;
+  outline: none;
+}
