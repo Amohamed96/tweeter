@@ -1,0 +1,15 @@
+.your-accout {
+  height: 400px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #6dbef5;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  text-align: center;
+}
+
+.your-account h2 {
+  position: relative;
+  bottom: 30px;
+}
