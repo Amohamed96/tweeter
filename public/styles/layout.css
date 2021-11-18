@@ -16,7 +16,7 @@ html {
 
  body {
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: #f5e9d5;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
   margin-top: 120px;
@@ -25,3 +25,9 @@ html {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}

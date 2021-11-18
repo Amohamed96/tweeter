@@ -1,11 +1,9 @@
-.your-accout {
+.your-account {
   height: 400px;
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: center;
-  background-color: #6dbef5;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  background-color: #f2c600;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
   text-align: center;
 }
 
