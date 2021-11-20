@@ -112,11 +112,11 @@ const refreshPage = () => {
 
 const submitCheck = (text) => {
   if (!text) {
-    $('.error-message');
+    $('.error-message').slideDown();
     $('.error-message contents').text("Your tweet is empty");
     return;
   } else if (text.length > 140) {
-    $('.error-message');
+    $('.error-message').slideDown();
     $('.error-message contents').text("Your tweet is too long: 140 characters or less!");
     return;
   } else {
