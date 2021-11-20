@@ -6,7 +6,10 @@ This is a twitter clone for my Lighthouse Labs project.
 
 You can create tweets...and that's pretty much it for now but more features coming soon!
 
-## About me
+## Screenshots
+
+!["Desktop View"](https://github.com/Amohamed96/tweeter/blob/master/docs/Screen%20Shot%202021-11-20%20at%202.44.19%20AM.png?raw=true)
+!["Mobile view with error"](https://github.com/Amohamed96/tweeter/blob/master/docs/Screen%20Shot%202021-11-20%20at%202.50.19%20AM.png?raw=true)
 
 ## Dependencies
 
