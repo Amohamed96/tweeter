@@ -8,7 +8,6 @@ const renderTweets = function(tweetsArray) {
     return $('#tweets-container').prepend(createTweetElement(tweetsArray));
   }
 };
-
 // Create the tweet and its HTML
 
 const createTweetElement = function(tweetObject) {
