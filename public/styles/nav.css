@@ -12,9 +12,24 @@ nav {
   padding: 1.5em;
 }
 
+/* Elements on the left of the nav bar */
 nav #logo {
   font-family: 'Bungee', cursive, sans-serif;
   width: 20%;
   display: flex;
   align-items: center;
 }
+
+nav #bird {
+  margin-right: 5%;
+}
+
+/* Elements on the right of the nav bar */
+.new-msg {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
